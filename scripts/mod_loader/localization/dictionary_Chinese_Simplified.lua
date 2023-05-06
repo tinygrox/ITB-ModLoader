@@ -1,12 +1,12 @@
 return {
-	["Button_Ok"] = "OK",
+	["Button_Ok"] = "好的", -- "OK"
 	["Button_Yes"] = "是", -- "YES"
 	["Button_No"] = "否", -- "NO"
 	["Button_DisablePopup"] = "知道了, 不要再弹出该提示", -- "GOT IT, DON'T TELL ME AGAIN"
-	["ButtonTooltip_DisablePopup"] = "此对话框将不会再次显示。你可以在 Mod 内容 > 配置 Mod 加载中选择再次显示。", -- "This dialog will not be shown anymore. You can re-enable it in Mod Content > Configure Mod Loader."
+	["ButtonTooltip_DisablePopup"] = "此对话框将不会再次显示。你可以在 Mod 相关 > 配置Mod 选项中更改再次显示。", -- "This dialog will not be shown anymore. You can re-enable it in Mod Content > Configure Mod Loader."
 
-	["MainMenu_Button_ModContent"] = "Mod 内容", -- "Mod Content"
-	["ModContent_FrameTitle"] = "Mod 内容", -- "Mod Content"
+	["MainMenu_Button_ModContent"] = "Mod 相关", -- "Mod Content"
+	["ModContent_FrameTitle"] = "Mod 相关内容", -- "Mod Content"
 
 	["ModContent_Button_ModConfig"] = "配置Mod", -- "Configure Mods"
 	["ModContent_ButtonTooltip_ModConfig"] = "启用或禁用 Mod，对它们可能存在的配置进行设置。", -- "Turn on and off individual mods, and configure any settings they might have.",
@@ -31,19 +31,19 @@ return {
 	["SquadSelect_FrameTitle"] = "战队选择", -- "Squad Selection",
 	["SquadSelect_Total"] = "总共已选",-- "Total selected",
 	["SquadSelect_Default_Text"] = "默认", -- "Default",
-	["SquadSelect_Default_Tooltip"] = "只有原版战队", -- "Select only vanilla squads.",
+	["SquadSelect_Default_Tooltip"] = "选择原版战队", -- "Select only vanilla squads.",
 	["SquadSelect_Random_Text"] = "随机",-- "Random",
 	["SquadSelect_Random_Tooltip"] = "选择随机战队", -- "Select random squads.",
 
-	["ModContent_Button_PilotArrange"] = "Arrange Pilots",
-	["ModContent_ButtonTooltip_PilotArrange"] = "Select which pilots will be available to pick.",
-	["PilotArrange_ButtonTooltip_Off"] = "New Game was pressed, so the pilots in the hangar can no longer be updated.\n\nYou must restart the game for changes to take effect.",
-	["PilotArrange_FrameTitle"] = "Arrange Pilots",
-	["PilotArrange_RestartWarning_Text"] = "The hangar was already loaded, so you must restart the game for pilot order changes to take effect.",
-	["PilotArrange_Default_Text"] = "Default",
-	["PilotArrange_Default_Tooltip"] = "Restore default pilot order.",
-	["PilotArrange_Random_Text"] = "Randomize",
-	["PilotArrange_Random_Tooltip"] = "Randomize pilot order.",
+	["ModContent_Button_PilotArrange"] = "机师管理", -- "Arrange Pilots"
+	["ModContent_ButtonTooltip_PilotArrange"] = "选择可供使用的机师", -- "Select which pilots will be available to pick."
+	["PilotArrange_ButtonTooltip_Off"] = "已新开存档，所有机库内的机师不会被更新。\n\n你必须重新启动游戏才能应用更改。", -- "New Game was pressed, so the pilots in the hangar can no longer be updated.\n\nYou must restart the game for changes to take effect.",
+	["PilotArrange_FrameTitle"] = "管理机师", -- "Arrange Pilots",
+	["PilotArrange_RestartWarning_Text"] = "机库已加载，你必须重启游戏才能应用更改", -- "The hangar was already loaded, so you must restart the game for pilot order changes to take effect.",
+	["PilotArrange_Default_Text"] = "默认", -- "Default",
+	["PilotArrange_Default_Tooltip"] = "恢复默认的机师顺序",-- "Restore default pilot order.",
+	["PilotArrange_Random_Text"] = "随机", -- "Randomize",
+	["PilotArrange_Random_Tooltip"] = "随机化机师顺序", -- "Randomize pilot order.",
 
 	["ModContent_Button_PaletteArrange"] = "Arrange Palettes",
 	["ModContent_ButtonTooltip_PaletteArrange"] = "Select which palettes will be available to pick.",
