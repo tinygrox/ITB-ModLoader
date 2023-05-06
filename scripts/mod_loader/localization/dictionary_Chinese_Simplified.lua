@@ -35,37 +35,37 @@ return {
 	["SquadSelect_Random_Text"] = "随机",-- "Random",
 	["SquadSelect_Random_Tooltip"] = "选择随机战队", -- "Select random squads.",
 
-	["ModContent_Button_PilotArrange"] = "机师管理", -- "Arrange Pilots"
+	["ModContent_Button_PilotArrange"] = "机师排列", -- "Arrange Pilots"
 	["ModContent_ButtonTooltip_PilotArrange"] = "选择可供使用的机师", -- "Select which pilots will be available to pick."
 	["PilotArrange_ButtonTooltip_Off"] = "已新开存档，所有机库内的机师不会被更新。\n\n你必须重新启动游戏才能应用更改。", -- "New Game was pressed, so the pilots in the hangar can no longer be updated.\n\nYou must restart the game for changes to take effect.",
-	["PilotArrange_FrameTitle"] = "管理机师", -- "Arrange Pilots",
+	["PilotArrange_FrameTitle"] = "排列机师", -- "Arrange Pilots",
 	["PilotArrange_RestartWarning_Text"] = "机库已加载，你必须重启游戏才能应用更改", -- "The hangar was already loaded, so you must restart the game for pilot order changes to take effect.",
 	["PilotArrange_Default_Text"] = "默认", -- "Default",
 	["PilotArrange_Default_Tooltip"] = "恢复默认的机师顺序",-- "Restore default pilot order.",
 	["PilotArrange_Random_Text"] = "随机", -- "Randomize",
 	["PilotArrange_Random_Tooltip"] = "随机化机师顺序", -- "Randomize pilot order.",
 
-	["ModContent_Button_PaletteArrange"] = "Arrange Palettes",
-	["ModContent_ButtonTooltip_PaletteArrange"] = "Select which palettes will be available to pick.",
-	["PaletteArrange_RiftWalkers_Tooltip_Extra"] = "This palette is fixed to the first slot for technical reasons.",
-	["PaletteArrange_FrameTitle"] = "Arrange Palettes",
-	["PaletteArrange_Current_Title"] = "Current",
-	["PaletteArrange_Current_Tooltip"] = "Resets palettes to the current loaded order.",
-	["PaletteArrange_Default_Title"] = "Default",
-	["PaletteArrange_Default_Tooltip"] = "Resets palettes to their default order.",
-	["PaletteArrange_Random_Title"] = "Random",
-	["PaletteArrange_Random_Tooltip"] = "Randomizes palettes",
+	["ModContent_Button_PaletteArrange"] = "颜色排列", --[[ "Arrange Palettes", ]]
+	["ModContent_ButtonTooltip_PaletteArrange"] = "选择可供使用的颜色", --[[ "Select which palettes will be available to pick.", ]]
+	["PaletteArrange_RiftWalkers_Tooltip_Extra"] = "因为一些技术原因，此颜色的顺序固定为第一格", --[[ "This palette is fixed to the first slot for technical reasons.", ]]
+	["PaletteArrange_FrameTitle"] = "排列颜色", --[[ "Arrange Palettes", ]]
+	["PaletteArrange_Current_Title"] = "当前", --[[ "Current", ]]
+	["PaletteArrange_Current_Tooltip"] = "重置颜色顺序为当前已载入的顺序", --[[ "Resets palettes to the current loaded order.", ]]
+	["PaletteArrange_Default_Title"] = "默认", --[[ "Default", ]]
+	["PaletteArrange_Default_Tooltip"] = "重置颜色顺序为默认顺序", --[[ "Resets palettes to their default order.", ]]
+	["PaletteArrange_Random_Title"] = "随机", --[[ "Random", ]]
+	["PaletteArrange_Random_Tooltip"] = "随机化颜色顺序", --[[ "Randomizes palettes", ]]
 
 
-	["ModContent_Button_ConfigureWeaponDeck"] = "Select Weapon Deck",
+	["ModContent_Button_ConfigureWeaponDeck"] = "选择武器包", --[[ "Select Weapon Deck", ]]
 	["ModContent_ButtonTooltip_ConfigureWeaponDeck"] = "Select which weapons are available in runs from the shop, time pods, and perfect island bonuses. Will not have any affect in existing save games.",
 
 	["ModContent_Button_ConfigurePilotDeck"] = "Select Pilot Deck",
 	["ModContent_ButtonTooltip_ConfigurePilotDeck"] = "Select which pilots are available in runs from time pods and perfect island bonuses. Will not have any affect in existing save games.",
 
-	["ConfigureDeck_PresetLoad_Title"] = "Load",
+	["ConfigureDeck_PresetLoad_Title"] = "载入", --[[ "Load", ]]
 	["ConfigureDeck_PresetLoad_Tooltip"] = "Loads the current preset, replacing the selected content",
-	["ConfigureDeck_PresetSave_Title"] = "Save",
+	["ConfigureDeck_PresetSave_Title"] = "保存", --[[ "Save", ]]
 	["ConfigureDeck_PresetSave_Tooltip"] = "Saves the current content to the selected preset. If nothing is checked, deletes the current preset.",
 
 	["ConfigureWeaponDeck_Deck_Title"] = "Deck: ",
@@ -88,7 +88,7 @@ return {
 	["ConfigureDeck_Mode_Tip_Advanced"] = "Edits content for when advanced mode content is enabled",
 	["ConfigurePilotDeck_Mode_Tip_Recruit"] = "Edits the list of starter pilots",
 
-	["ConfigureDeck_Preset_Title"] = "Preset: ",
+	["ConfigureDeck_Preset_Title"] = "预设：", --[[ "Preset: ", ]]
 	["ConfigureDeck_Preset_Tooltip"] = "Select a preset to replace currently selected content.",
 	["ConfigureDeck_Preset_Tip_Vanilla"] = "Select only vanilla content.",
 	["ConfigureDeck_Preset_Tip_Default"] = "Select default content defined by mods.",
@@ -230,18 +230,18 @@ return {
 	["TestingConsole_FailSummary_FrameTitle"] = "Failure Summary",
 	["TestingConsole_FailSummary_Tooltip"] = "This test has failed. Click to bring up a detailed summary.",
 
-	["Palette_Name_Rift_Walkers"] = "Rift Walkers Olive",
-	["Palette_Name_Rusting_Hulks"] = "Rusting Hulks Amber",
-	["Palette_Name_Zenith_Guard"] = "Zenith Guard Blue",
-	["Palette_Name_Blitzkrieg"] = "Blitzkrieg Yellow",
-	["Palette_Name_Steel_Judoka"] = "Steel Judoka Shivan",
-	["Palette_Name_Flame_Behemoths"] = "Flame Behemoths Red",
-	["Palette_Name_Frozen_Titans"] = "Frozen Titans Blue",
-	["Palette_Name_Hazardous_Mechs"] = "Hazardous Mechs Tan",
-	["Palette_Name_Secret_Squad"] = "Secret Squad Purple",
-	["Palette_Name_Bombermechs"] = "Bombermechs Gold",
-	["Palette_Name_Arachnophiles"] = "Arachnophiles Pink",
-	["Palette_Name_Mist_Eaters"] = "Mist Eaters Cyan",
-	["Palette_Name_Heat_Sinkers"] = "Heat Sinkers Green",
-	["Palette_Name_Cataclysm"] = "Cataclysm Orange",
+	["Palette_Name_Rift_Walkers"] = "虫洞行者 橄榄绿",--[[ "Rift Walkers Olive", ]]
+	["Palette_Name_Rusting_Hulks"] = "锈色浩克 琥珀棕",--[[ "Rusting Hulks Amber", ]]
+	["Palette_Name_Zenith_Guard"] = "极点守卫 蓝", --[[ "Zenith Guard Blue", ]]
+	["Palette_Name_Blitzkrieg"] = "闪电战队 黄", --[[ "Blitzkrieg Yellow", ]]
+	["Palette_Name_Steel_Judoka"] = "钢铁柔道家 灰", --[[ "Steel Judoka Shivan", ]]
+	["Palette_Name_Flame_Behemoths"] = "烈焰巨兽 红", --[[ "Flame Behemoths Red", ]]
+	["Palette_Name_Frozen_Titans"] = "冰冻泰坦 蓝", --[[ "Frozen Titans Blue", ]]
+	["Palette_Name_Hazardous_Mechs"] = "危险机甲 棕", --[[ "Hazardous Mechs Tan", ]]
+	["Palette_Name_Secret_Squad"] = "秘密战队 紫", --[[ "Secret Squad Purple", ]]
+	["Palette_Name_Bombermechs"] = "轰炸机甲 金", --[[ "Bombermechs Gold", ]]
+	["Palette_Name_Arachnophiles"] = "蜘蛛 粉", --[[ "Arachnophiles Pink", ]]
+	["Palette_Name_Mist_Eaters"] = "迷雾噬者 青", --[[ "Mist Eaters Cyan", ]]
+	["Palette_Name_Heat_Sinkers"] = "聚热战机 绿", --[[ "Heat Sinkers Green", ]]
+	["Palette_Name_Cataclysm"] = "灾变 橙", --[[ "Cataclysm Orange", ]]
 }
